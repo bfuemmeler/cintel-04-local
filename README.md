@@ -37,5 +37,10 @@ pip install -r requirements.txt
 ## Run the Shiny App
 python app.py
 
+## Install newest Git using PowerShell
+git update-git-for-windows
+at prompt asking to download & install new version, type Y
+
+
 
 
