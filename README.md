@@ -41,6 +41,15 @@ python app.py
 git update-git-for-windows
 at prompt asking to download & install new version, type Y
 
+# Verify version of Git
+git --version
+
+# Verify Git configuration
+git config --global --get user.name
+git config --global --get user.email
+
+
+
 
 
 
