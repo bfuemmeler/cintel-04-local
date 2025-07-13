@@ -87,6 +87,14 @@ git pull
 # To check Git Push/Pull status
 git status
 
+# P4 Publish Interactive Reactive app  
+(remove any existing assets and use shinylive export to build the app in the penguins folder to the docs folder)
+with c:\Projects\cintel-04-local, enter
+shiny static-assets remove  
+shinylive export penguins docs
+
+py -m http.server --directory docs --bind localhost 8008
+
 
 
 
