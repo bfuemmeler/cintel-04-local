@@ -48,6 +48,13 @@ git --version
 git config --global --get user.name
 git config --global --get user.email
 
+# In VS Code, go to Documents folder
+cd ~\Documents
+
+# Git Clone from GitHub repo
+git clone https://github.com/bfuemmeler/cintel-04-local.git
+
+
 
 
 
