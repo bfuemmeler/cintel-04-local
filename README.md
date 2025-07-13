@@ -66,6 +66,31 @@ py -m venv .venv
 py -m pip install --upgrade pip setuptools
 py -m pip install --upgrade -r requirements.txt
 
+# Create folder for penguins
+In cintel-04-local, build a new folder named "penguins". Move the app.py file here. 
+
+# Test the app
+shiny run --reload --launch-browser penguins/app.py
+
+# Error correction
+.venv\Scripts\activate
+pip install palmerpenguins
+
+# Push from VS Code to GitHub
+git add .
+git commit -m update ReadMe
+git push git push -u origin main
+
+# If need to Pull from Git first
+git pull
+
+# To check Git Push/Pull status
+git status
+
+
+
+
+
 
 
 
