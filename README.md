@@ -54,6 +54,19 @@ cd ~\Documents
 # Git Clone from GitHub repo
 git clone https://github.com/bfuemmeler/cintel-04-local.git
 
+# Create Virtual Environment
+py -m venv .venv
+
+# Verify .gitignore file has .venv
+
+# Activate Virtual Environment
+.venv\Scripts\Activate
+
+# Install Dependencies
+py -m pip install --upgrade pip setuptools
+py -m pip install --upgrade -r requirements.txt
+
+
 
 
 
