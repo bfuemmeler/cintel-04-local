@@ -20,3 +20,22 @@ python --version
 py --version
 py -m pip --version
 
+# install Python newest version Python 3.13.5  (as needed)
+
+# Project Setup in VS Code
+## Clone the Repository
+git clone https://github.com/bfuemmeler/cintel-04-local.git
+cd cintel-04-local
+
+## Create & Activate Virtual Environment
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+## Install Required Packages
+pip install -r requirements.txt
+
+## Run the Shiny App
+python app.py
+
+
+
